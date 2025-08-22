@@ -25,7 +25,7 @@ jobs:
     steps:
     - name: Download test file
       uses: actions/download-artifact@v5
-        name: hello-artifact
+        name: hello.txt
         path: ./artifacts
 
     steps:
